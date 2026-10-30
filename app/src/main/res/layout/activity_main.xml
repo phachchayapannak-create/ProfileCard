@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_dynamic_tertiary40"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+<ImageView
+    android:id="@+id/imag_Profile"
+    android:layout_width="120dp"
+    android:layout_height="120dp"
+    android:src="@drawable/tit"/>
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phachchaya Pannak"
+        android:textSize="28sp"
+        android:textColor="@color/material_dynamic_neutral_variant10"
+        android:layout_marginTop="12dp"/>
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="เทคโนโลยีสารสนเทศ"
+        android:textSize="20sp"
+        android:textColor="@color/material_dynamic_neutral_variant10"
+        />
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eastern Technological College"
+        android:textSize="22sp"
+        android:textColor="@color/material_dynamic_neutral_variant10"
+        />
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Me"
+        android:backgroundTint="@color/black"/>
+
+
+
+
+
+</LinearLayout>
+
